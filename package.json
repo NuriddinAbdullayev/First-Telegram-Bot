@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/NuriddinAbdullayev/First-Telegram-Bot#readme",
   "dependencies": {
+    "sharp": "^0.35.5",
     "telegraf": "^4.16.3"
   }
 }
