@@ -28,6 +28,10 @@ bot.on(message("photo"), async (ctx) => {
     source: resizedPhoto,
     filename: "resizedPhoto.jpg"
   })
+
+  if(sentPhoto) {
+    console.log("The resized image is sent in telegram!")
+  }
 })
 
 
